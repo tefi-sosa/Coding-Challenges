@@ -9,7 +9,7 @@ function sumZero (arr) {
       return [arr[left], arr[right]]
     } else if (sum > 0) {
       right--
-    } else if (sum < 0) {
+    } else {
       left++
     }
   }
